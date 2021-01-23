@@ -7,7 +7,7 @@ body {
 h1 {
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #66bfbf;
   margin-top: 50px;
   /* font-size: 562.5%; */
   /*16px=100% =1em=1rem*/
@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #66bfbf;
 }
 
 span {
@@ -39,7 +39,7 @@ h3 {
 
 h3,
 a {
-  color: #11999E;
+  color: #11999e;
 }
 
 * {
@@ -117,7 +117,7 @@ hr {
 }
 
 .btn-contact {
-  background-color: #3EA08A;
+  background-color: #3ea08a;
   color: white;
   font-weight: 400;
   border: none;
@@ -125,24 +125,22 @@ hr {
   border-radius: 6px;
   box-shadow: 1px 1px 20px 0px #313030;
   text-shadow: 1px 1px 20px #000000;
-  background-image: linear-gradient(to bottom, #3EA08A, #d01e9b);
+  background-image: linear-gradient(to bottom, #3ea08a, #d01e9b);
 }
-
 
 .btn-contact:hover {
   background-image: linear-gradient(to bottom, #d01e9b, #3ea08a);
-
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   margin-top: 4%;
   padding-top: 2%;
 }
 
 .footer-link {
   padding: 1%;
-  color: #001F54;
+  color: #001f54;
   text-decoration: none;
 }
 
@@ -158,4 +156,11 @@ hr {
 .copyright a {
   color: white;
   font-family: "Montserrat", sans-serif;
+}
+@media only screen and (max-width: 450px) {
+  img.mountain,
+  .skill-row .img-left,
+  .skill-row .img-right {
+    width: 100%;
+  }
 }
